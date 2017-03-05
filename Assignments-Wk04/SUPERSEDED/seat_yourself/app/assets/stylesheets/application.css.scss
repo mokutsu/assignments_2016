@@ -1,0 +1,165 @@
+
+@import 'restaurants';
+@import 'sessions';
+@import 'customers';
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import 'reservations';
+$red: #da3743;
+
+html, body {
+  font-size: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: crosshair;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: #F7F3DF;
+ }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+*, *:before, *:after {
+  box-sizing:inherit;
+}
+
+a {
+  color: black;
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+#logo{
+  border-radius: 50%;
+  color: white;
+  border: solid white 2px;
+  display: inline-block;
+  margin: 10px;
+  margin-left: 25px;
+  font-size: 25px;
+  padding: 6px;
+}
+
+#logo a{
+  color: white;
+  text-decoration: none;
+}
+.nav_link a {
+  color: white;
+  text-decoration: none;
+  border: solid 3px white;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.nav_link a:hover{
+  background-color: white;
+  color: $red;
+}
+.page-wrapper {
+  position: relative;
+  max-width: 95%;
+  margin: 0 auto; }
+
+#header{
+  background-color:$red;
+  opacity: 0.9;
+  height:70px;
+}
+
+.btn {
+  color: white;
+  line-height: 70px;
+  font-size: 16px;
+}
+
+#footer{
+  clear: both;
+  width: 100%;
+  background-color: $red;
+  bottom:0;
+  position:relative;
+
+
+  ul{
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+  }
+  li{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 13px;
+
+  }
+
+  a{
+      color: white;
+  &:hover{
+      color:$red;
+    }
+  }
+}
+
+.social_container{
+  display: inline-block;
+ margin-top:24px;
+ margin-left: 80px;
+}
+
+.footer_links{
+  margin-top: 40px;
+}
+
+.social_title{
+  color: white;
+ font-size: 14px;
+ text-align: center;
+ margin: 0;
+}
+
+.fa {
+  color: white;
+  font-size: 16px;
+  display: inline-block;
+
+}
+
+.social{
+  margin-right: 70px;
+  margin-top: 15px;
+
+  a {
+    color:white;
+    &:hover{
+      color: $red;
+    }
+  }
+
+
+}
+
+.fa-facebook{
+  float:right;
+}
+
+.fa-instagram{
+  float: left;
+}
+
+.copyright{
+  font-size: 14px;
+  color: white;
+  float:right;
+  position:relative;
+  margin-right: 20px;
+  margin-top: 70px;
+}
